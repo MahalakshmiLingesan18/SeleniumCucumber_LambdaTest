@@ -14,47 +14,6 @@ It supports cross-browser testing on LambdaTest Cloud Grid with features like:
 ## 📂 Project Structure
 ![Project Structure - Dark](project_structure_swift_dark.png)
 
-📂 Project Structure
-selenium-cucumber-testng/
-│── src/
-│   ├── main/java/com/lambdatest/webdriverutility/
-│   │   ├── CapabilityFactory.java
-│   │   ├── Driver.java
-│   │   └── DriverManager.java
-│   │
-│   └── test/java/com/lambdatest/
-│       ├── pageobjects/
-│       │   ├── DragDropSliderPage.java
-│       │   ├── InputFormSubmit.java
-│       │   └── SimpleFormDemo.java
-│       │
-│       ├── stepdefinition/
-│       │   ├── DragDropSliderStepDefinition.java
-│       │   ├── InputFormSubmitStepDefinition.java
-│       │   ├── SimpleFormDemoStepDefinition.java
-│       │   └── Hooks.java
-│       │
-│       ├── utilities/
-│       │   └── BaseUtils.java
-│       │
-│       ├── runner/
-│       │   └── TestRunner.java
-│       │
-│       └── resources/
-│           ├── FeatureFiles/
-│           │   ├── drag&DropSlider.feature
-│           │   ├── InputFormSubmit.feature
-│           │   └── SimpleFormDemo.feature
-│           │
-│           ├── PropertiesFile/
-│           │   └── config.properties
-│           │
-│           ├── TestData/
-│           │   └── InputFormData.xlsx
-│── pom.xml
-│── testng.xml
-└── README.md
-
 ⚙️ Setup
 1️⃣ Prerequisites
 Java 11+ (Java 21 supported ✅)
