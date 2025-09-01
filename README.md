@@ -11,6 +11,9 @@ It supports cross-browser testing on LambdaTest Cloud Grid with features like:
 ✅ Logging with Log4j2
 ✅ Cloud execution on LambdaTest
 
+## 📂 Project Structure
+![Project Structure - Dark](project_structure_swift_dark.png)
+
 📂 Project Structure
 selenium-cucumber-testng/
 │── src/
