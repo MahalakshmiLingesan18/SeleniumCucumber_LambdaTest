@@ -12,8 +12,8 @@ It supports cross-browser testing on LambdaTest Cloud Grid with features like:
 ✅ Cloud execution on LambdaTest
 
 ## 📂 Project Structure
-![Light](project_structure_swift_light.png)
-![Dark](project_structure_swift_dark.png)
+![Light](project_structure_swift_light.png#gh-light-mode-only)
+![Dark](project_structure_swift_dark.png#gh-dark-mode-only)
 
 ⚙️ Setup
 1️⃣ Prerequisites
