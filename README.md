@@ -43,9 +43,9 @@ set LT_USERNAME=your-username
 set LT_ACCESS_KEY=your-access-key
 
 ⚙️ config.properties
-url=https://www.lambdatest.com/selenium-playground
-browser=chrome
-version=latest
+url=https://www.lambdatest.com/selenium-playground,
+browser=chrome,
+version=latest,
 platform=Windows 11
 
 ▶️ Running Tests
