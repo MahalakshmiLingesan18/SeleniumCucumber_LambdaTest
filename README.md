@@ -22,3 +22,19 @@ Click below to launch this repo in Gitpod:
 
 ```bash
 mvn test
+
+## 🔧 Tech Stack  
+
+- **Java (JDK 11+)**  
+- **Selenium WebDriver**  
+- **Cucumber BDD**  
+- **TestNG**  
+- **Maven (build tool)**  
+- **Gitpod (cloud dev environment)**  
+
+---
+
+## 📝 Notes  
+
+- Use `.gitignore` to exclude build, IDE, and log files (`target/`, `.idea/`, etc.)  
+- Extend the framework to support **parallel execution** & reporting (**Extent Reports / Cucumber Reports**).  
