@@ -1,68 +1,105 @@
-🧪 Selenium Cucumber TestNG Framework
+# 🧪 Selenium Cucumber TestNG Framework  
 
-This project is a Selenium WebDriver test automation framework built from scratch using Java, Cucumber (BDD), and TestNG.
-It supports cross-browser testing on LambdaTest Cloud Grid with features like:
+This project is a **Selenium WebDriver test automation framework** built from scratch using **Java, Cucumber (BDD), and TestNG**.  
+It supports **cross-browser testing on LambdaTest Cloud Grid** with features like:  
 
-✅ Cucumber BDD Scenarios
-✅ TestNG Runner with parallel execution
-✅ Page Object Model (POM) design
-✅ Excel-driven test data
-✅ Configurable with config.properties
-✅ Logging with Log4j2
-✅ Cloud execution on LambdaTest
+- ✅ Cucumber BDD Scenarios  
+- ✅ TestNG Runner with parallel execution  
+- ✅ Page Object Model (POM) design  
+- ✅ Excel-driven test data  
+- ✅ Configurable with `config.properties`  
+- ✅ Logging with Log4j2  
+- ✅ Cloud execution on LambdaTest  
 
-## 📂 Project Structure
-![Light](project_structure_swift_light.png#gh-light-mode-only)
-![Dark](project_structure_swift_dark.png#gh-dark-mode-only)
+---
 
-⚙️ Setup
-1️⃣ Prerequisites
-Java 11+ (Java 21 supported ✅)
-Maven 3+
-TestNG plugin (for IDE)
-IntelliJ IDEA / Eclipse
+## 📂 Project Structure  
 
-2️⃣ Clone the repo
+![Light](project_structure_swift_light.png#gh-light-mode-only)  
+![Dark](project_structure_swift_dark.png#gh-dark-mode-only)  
+
+---
+
+## ⚙️ Setup  
+
+### 📦 Prerequisites  
+- Java **11+** (Java 21 supported ✅)  
+- Maven **3+**  
+- TestNG plugin (for IDE)  
+- IntelliJ IDEA / Eclipse  
+
+---
+
+### 📦 Clone the repo  
+(bash)
 git clone https://github.com/<your-username>/selenium-cucumber-testng.git
 cd selenium-cucumber-testng
 
-3️⃣ Install dependencies
+---
+
+## 📦 Install dependencies
+(bash)
 mvn clean install
 
-🛠️ Configuration
-🔑 LambdaTest Credentials
+---
+
+## 🛠️ Configuration
+
+### 🔑 LambdaTest Credentials  
 
 Set your LambdaTest username & access key as environment variables:
 
-1️⃣(bash)
+**macOS/Linux (bash):**
+(bash)
 export LT_USERNAME="your-username"
 export LT_ACCESS_KEY="your-access-key"
 
-2️⃣(Windows CMD)
+**Windows (CMD):**
+(cmd)
 set LT_USERNAME=your-username
 set LT_ACCESS_KEY=your-access-key
 
-⚙️ config.properties
-url=https://www.lambdatest.com/selenium-playground,
-browser=chrome,
-version=latest,
+---
+
+### ⚙️ config.properties
+(properties)
+url=https://www.lambdatest.com/selenium-playground
+browser=chrome
+version=latest
 platform=Windows 11
 
-▶️ Running Tests
-Run all tests (default config)
+---
+
+## ▶️ Running Tests  
+
+**Run all tests (default config):**  
+(bash)
 mvn clean test
 
-Run with TestNG suite
+---
+
+**Run with TestNG suite:**  
+(bash)
 mvn clean test -DsuiteXmlFile=testng.xml
 
-Run a specific feature file
+---
+
+**Run a specific feature file:**  
+(bash)
 mvn test -Dcucumber.features="src/test/resources/FeatureFiles/drag&DropSlider.feature"
 
-📊 Reports
-Cucumber JSON Report → target/cucumber-reports/CucumberTestReport.json
-Can be integrated with ExtentReports / Allure for richer reports.
+---
 
-🧩 Example Feature
+## 📊 Reports  
+
+- **Cucumber JSON Report** → `target/cucumber-reports/CucumberTestReport.json`  
+- Can be integrated with **ExtentReports** / **Allure** for richer reports.
+
+---
+
+## 🧩 Example Feature  
+
+(gherkin)
 Feature: Input Form Submit feature
 
   Scenario: Validating success message after filling the form
@@ -71,16 +108,24 @@ Feature: Input Form Submit feature
     And User clicks Submit button
     Then A success message "Thanks for contacting us, we will get back to you shortly" should be displayed
 
-📌 Key Highlights
-DriverManager Pattern → Thread-safe WebDriver management.
-Configurable Browsers → via config.properties or testng.xml.
-Excel Data Driven → form input pulled from InputFormData.xlsx.
-Cloud Execution → Seamless integration with LambdaTest.
+---
 
-🚀 Next Enhancements
- Add Allure/Extent reporting
- Integrate with CI/CD (GitHub Actions / Jenkins)
- Add tagging for Smoke/Regression test selection
- Support parallel browser matrix from testng.xml
+## 📌 Key Highlights  
 
-✨ With this framework, you can build scalable, maintainable, and CI/CD-ready Selenium tests with ease.
+- **DriverManager Pattern** → Thread-safe WebDriver management  
+- **Configurable Browsers** → via `config.properties` or `testng.xml`  
+- **Excel Data Driven** → form input pulled from `InputFormData.xlsx`  
+- **Cloud Execution** → Seamless integration with **LambdaTest**  
+
+---
+
+## 🚀 Next Enhancements  
+
+- Add **Allure / Extent reporting**  
+- Integrate with **CI/CD (GitHub Actions / Jenkins)**  
+- Add **tagging** for Smoke / Regression test selection  
+- Support **parallel browser matrix** from `testng.xml`  
+
+---
+
+✨ With this framework, you can build **scalable, maintainable, and CI/CD-ready Selenium tests** with ease. 
