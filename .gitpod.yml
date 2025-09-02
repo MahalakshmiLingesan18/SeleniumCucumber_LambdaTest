@@ -1,0 +1,7 @@
+# Gitpod configuration for Selenium + Cucumber + TestNG (Maven project)
+image: gitpod/workspace-full
+
+tasks:
+  - name: Setup and Run Tests
+    init: mvn clean install -DskipTests
+    command: mvn test
