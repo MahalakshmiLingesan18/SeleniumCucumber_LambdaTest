@@ -13,6 +13,19 @@ It supports **cross-browser testing on LambdaTest Cloud Grid** with features lik
 
 ---
 
+## 📑 Table of Contents  
+- [📦 Install dependencies](#-install-dependencies)  
+- [🛠️ Configuration](#️-configuration)  
+  - [🔑 LambdaTest Credentials](#-lambdatest-credentials)  
+  - [⚙️ config.properties](#️-configproperties)  
+- [▶️ Running Tests](#️-running-tests)  
+- [📊 Reports](#-reports)  
+- [🧩 Example Feature](#-example-feature)  
+- [📌 Key Highlights](#-key-highlights)  
+- [🚀 Next Enhancements](#-next-enhancements)  
+
+---
+
 ## 📂 Project Structure  
 
 ![Light](project_structure_swift_light.png#gh-light-mode-only)  
