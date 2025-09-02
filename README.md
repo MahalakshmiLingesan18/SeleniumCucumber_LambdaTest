@@ -13,6 +13,13 @@ It supports **cross-browser testing on LambdaTest Cloud Grid** with features lik
 
 ---
 
+## ✅ Run on Gitpod  
+
+Click below to launch this repo in Gitpod:  
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/MahalakshmiLingesan18/Selenium_LambdaTest)  
+
+---
 ## 📑 Table of Contents  
 - [📦 Install dependencies](#-install-dependencies)  
 - [🛠️ Configuration](#️-configuration)  
