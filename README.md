@@ -23,6 +23,8 @@ Click below to launch this repo in Gitpod:
 ```bash
 mvn test
 
+---
+
 ## 🔧 Tech Stack  
 
 - **Java (JDK 11+)**  
