@@ -11,23 +11,23 @@ public final class DriverManager {
 	}
 	
 	// ThreadLocal variable to store driver instance per thread
-	private static final ThreadLocal<RemoteWebDriver> driver = new ThreadLocal<>();
+	private static final ThreadLocal<RemoteWebDriver> driverThreadLocal = new ThreadLocal<>();
 	
 	// Setter - assigns driver for current thread
 	public static void setDriver(RemoteWebDriver driverInstance) {
 	    if (Objects.nonNull(driverInstance)) { //prevents assigning null
-	      driver.set(driverInstance);
+	    	driverThreadLocal .set(driverInstance);
 	    }
 	}
 	
 	// Getter - retrieves driver for current thread
 	public static RemoteWebDriver getDriver() {
-	    return driver.get();
+	    return driverThreadLocal.get();
 	}
 	
 	// Unload - removes driver reference from ThreadLocal
 	public static void unload() {
-	    driver.remove();
+		driverThreadLocal.remove();
 	}
 
 }
