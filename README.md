@@ -55,8 +55,8 @@ Click below to launch this repo in Gitpod:
 
 ### 📦 Clone the repo  
 (bash)
-git clone https://github.com/<your-username>/selenium-cucumber-testng.git
-cd selenium-cucumber-testng
+git clone https://github.com/MahalakshmiLingesan18/SeleniumCucumber_LambdaTest.git
+cd SeleniumCucumber_LambdaTest
 
 ---
 
