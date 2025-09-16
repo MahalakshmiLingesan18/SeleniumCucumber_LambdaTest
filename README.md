@@ -33,10 +33,13 @@ Click below to launch this repo in Gitpod:
 
 ---
 
-## 📂 Project Structure  
+## 📂 Project Structure
 
-![Light](project_structure_swift_light.png#gh-light-mode-only)  
-![Dark](project_structure_swift_dark.png#gh-dark-mode-only)  
+<!-- Light mode image -->
+![Project Structure Light](assets/project-structure-light.png#gh-light-mode-only)
+
+<!-- Dark mode image -->
+![Project Structure Dark](assets/project-structure-dark.png#gh-dark-mode-only)
 
 ---
 
