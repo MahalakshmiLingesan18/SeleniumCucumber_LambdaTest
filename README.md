@@ -136,7 +136,6 @@ Feature: Input Form Submit feature
 
 - Integrate with **CI/CD (GitHub Actions / Jenkins)**  
 - Add **tagging** for Smoke / Regression test selection  
-- Support **parallel browser matrix** from `testng.xml`  
 
 ---
 
