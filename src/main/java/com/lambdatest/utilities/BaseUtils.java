@@ -48,7 +48,7 @@ public class BaseUtils {
 		Properties properties = new Properties();
 		
 		try {
-            FileInputStream fis = new FileInputStream("src/test/resources/PropertiesFile/config.properties");
+            FileInputStream fis = new FileInputStream("src/main/resources/PropertiesFile/config.properties");
             properties.load(fis);
         } catch (IOException e) {
             throw new RuntimeException("Failed to load config.properties: " + e.getMessage());

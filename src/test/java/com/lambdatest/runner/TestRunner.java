@@ -17,7 +17,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 import io.cucumber.testng.TestNGCucumberRunner;
 
-@CucumberOptions(features = "src/test/resources/FeatureFiles", glue = {"com.lambdatest.stepdefinition"}, plugin = {"pretty", "json:target/cucumber-reports/CucumberTestReport.json", "html:target/cucumber-reports/cucumber.html"})
+@CucumberOptions(features = "src/main/resources/FeatureFiles", glue = {"com.lambdatest.stepdefinition"}, plugin = {"pretty", "json:target/cucumber-reports/CucumberTestReport.json", "html:target/cucumber-reports/cucumber.html", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
 public class TestRunner extends AbstractTestNGCucumberTests {
 	
 	private TestNGCucumberRunner testNGCucumberRunner; //allows Cucumber features to be executed as TestNG tests

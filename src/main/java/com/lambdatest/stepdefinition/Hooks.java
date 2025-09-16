@@ -8,6 +8,7 @@ import com.lambdatest.utilities.BaseUtils;
 import com.lambdatest.webdriverutility.Driver;
 import com.lambdatest.webdriverutility.DriverManager;
 import io.cucumber.java.After;
+import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 
@@ -49,5 +50,13 @@ public class Hooks {
             }
         }
     }
+	
+	@AfterStep
+	public void uponFail(Scenario scenario) {
+		if (scenario.isFailed()) {
+			byte[] screenshot = ((TakesScreenshot) DriverManager.getDriver()).getScreenshotAs(OutputType.BYTES);
+			scenario.attach(screenshot, "image/png", "error");
+		}
+	}
 
 }

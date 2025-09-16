@@ -33,16 +33,6 @@ Click below to launch this repo in Gitpod:
 
 ---
 
-## 📂 Project Structure
-
-<!-- Light mode image -->
-![Project Structure Light](assets/project-structure-light.png#gh-light-mode-only)
-
-<!-- Dark mode image -->
-![Project Structure Dark](assets/project-structure-dark.png#gh-dark-mode-only)
-
----
-
 ## ⚙️ Setup  
 
 ### 📦 Prerequisites  
@@ -116,7 +106,7 @@ mvn test -Dcucumber.features="src/test/resources/FeatureFiles/drag&DropSlider.fe
 ## 📊 Reports  
 
 - **Cucumber JSON Report** → `target/cucumber-reports/CucumberTestReport.json`  
-- Can be integrated with **ExtentReports** / **Allure** for richer reports.
+-Integrated with **ExtentReports** for richer reports → `target/SparkReport/Spark.html`
 
 ---
 

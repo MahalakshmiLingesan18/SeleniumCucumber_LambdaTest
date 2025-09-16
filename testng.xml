@@ -3,6 +3,10 @@
 
 <suite name="BDD Test Suite" verbose="1" parallel="tests" thread-count="2">
 
+    <listeners>
+        <listener class-name="com.lambdatest.listener.AnnotationTransformer"></listener>
+    </listeners>
+
     <!-- Chrome on Windows -->
     <test name="CHROME" preserve-order="true" parallel="methods" thread-count="3">
         <parameter name="browser" value="chrome"/>
