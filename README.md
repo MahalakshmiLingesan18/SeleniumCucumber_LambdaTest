@@ -1,7 +1,7 @@
-# 🧪 Selenium Cucumber TestNG Framework  
+# 🧪 Hybrid Framework  
 
 This project is a **Selenium WebDriver test automation framework** built from scratch using **Java, Cucumber (BDD), and TestNG**.  
-It supports **cross-browser testing on LambdaTest Cloud Grid** with features like:  
+It supports **cross-browser & cross-platform testing on LambdaTest Cloud Grid** with features like:  
 
 - ✅ Cucumber BDD Scenarios  
 - ✅ TestNG Runner with parallel execution  
@@ -9,7 +9,19 @@ It supports **cross-browser testing on LambdaTest Cloud Grid** with features lik
 - ✅ Excel-driven test data  
 - ✅ Configurable with `config.properties`  
 - ✅ Logging with Log4j2  
-- ✅ Cloud execution on LambdaTest  
+- ✅ Cloud execution on LambdaTest 
+
+---
+
+## 🌐 Selenium Grid Support
+
+This framework supports running tests on **Selenium Grid** for **parallel, cross-browser, and cross-platform execution**.  
+
+You can run tests on:
+
+- 🖥️ **Local Grid** (Standalone or Hub/Node setup)  
+- 🐳 **Dockerized Grid** (recommended for CI pipelines)  
+- ☁️ **Cloud Grid** such as [LambdaTest](https://www.lambdatest.com/)
 
 ---
 
