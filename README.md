@@ -1,4 +1,4 @@
-# 🧪 Hybrid Framework  
+# 🧪 Selenium_Cucumber_TestNG - Hybrid Framework  
 
 This project is a **Selenium WebDriver test automation framework** built from scratch using **Java, Cucumber (BDD), and TestNG**.  
 It supports **cross-browser & cross-platform testing on LambdaTest Cloud Grid** with features like:  
